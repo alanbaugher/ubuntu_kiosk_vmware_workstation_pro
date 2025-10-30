@@ -9,8 +9,8 @@ Duration:
 2-5 min after 2nd reboot, the solution should auto-authenticate into the user's desktop and then auto-start any VMware image that was deployed.  
 
   
-
-## View of the architecture model for building and utilization of the custom ISO.    
+## List of flow  
+### View of the architecture model for building and utilization of the custom ISO.    
 <img width="1720" height="1019" alt="image" src="https://github.com/user-attachments/assets/ea7e49a1-275c-4dd4-894b-89393c02388c" />  
   
 ## View of the processes used for building the custom ISO.    
