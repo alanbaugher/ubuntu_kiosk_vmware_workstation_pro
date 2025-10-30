@@ -1,7 +1,7 @@
 # ubuntu_kiosk_vmware_workstation_pro
 A bootable USB Flash drive using Ubuntu OS that will auto install VMware Workstation Pro 25H2 and extact a VMware Image.  
 
-<img width="1844" height="1059" alt="image" src="https://github.com/user-attachments/assets/45d3c781-6438-473b-8e07-3a95786af2cd" />  
+<img width="1720" height="1019" alt="image" src="https://github.com/user-attachments/assets/ea7e49a1-275c-4dd4-894b-89393c02388c" />  
 
 <img width="1979" height="972" alt="image" src="https://github.com/user-attachments/assets/1a5afc17-3481-4fe0-b761-0234ab66b7fb" />  
 
