@@ -3,6 +3,7 @@ A bootable USB Flash drive using Ubuntu OS that will auto install VMware Worksta
 
 <img width="1844" height="1059" alt="image" src="https://github.com/user-attachments/assets/45d3c781-6438-473b-8e07-3a95786af2cd" />  
 
+<img width="1979" height="972" alt="image" src="https://github.com/user-attachments/assets/1a5afc17-3481-4fe0-b761-0234ab66b7fb" />  
 
 
 
