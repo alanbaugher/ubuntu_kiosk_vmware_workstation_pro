@@ -38,6 +38,7 @@ Duration:
 
 ## Follow up notes:
 Download the latest Linux VMware Workstation Pro binary for Linux from Broadcom Support Site under Free Software Downloads.  
+Note:  Site requires registration for login and to download files.  
 https://support.broadcom.com/group/ecx/productfiles?subFamily=VMware%20Workstation%20Pro&displayGroup=VMware%20Workstation%20Pro%2025H2%20for%20Linux&release=25H2&os=&servicePk=&language=EN&freeDownloads=true  
 
 <img width="913" height="250" alt="image" src="https://github.com/user-attachments/assets/931b0cea-90bf-4868-8246-8a87dcadc63e" />  
