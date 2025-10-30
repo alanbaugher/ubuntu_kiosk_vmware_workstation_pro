@@ -1,12 +1,13 @@
 # ubuntu_kiosk_vmware_workstation_pro
 A bootable USB Flash drive using Ubuntu OS that will auto install VMware Workstation Pro
 
-View of the two (2) bootable files of "meta-data" and "user-data" -  "user-data" must be defined in YAML, UTF, and Unix LF format.  
+## View of the two (2) bootable files of "meta-data" and "user-data" -  "user-data" must be defined in YAML, UTF, and Unix LF format.  
 <img width="1046" height="621" alt="image" src="https://github.com/user-attachments/assets/c8d17196-bb85-4004-98ba-61a598740a25" />  
 
-
+## View of the two (2) bootable files of "grub.cfg" and "loopback.cfg"  -  These files reference the folder /autoinstaller, where "user-data" and "meta-data" resides.  
 <img width="1019" height="613" alt="image" src="https://github.com/user-attachments/assets/dfa6de6d-302b-4d3e-a96a-f2412fa459dd" />  
 
+##  
 <img width="1289" height="613" alt="image" src="https://github.com/user-attachments/assets/76c4a5b3-cb4b-405f-9a69-271bdb941aee" />  
 
 <img width="1157" height="617" alt="image" src="https://github.com/user-attachments/assets/b1b06fb8-7f89-48bd-8956-a66fc3a80ce7" />  
