@@ -10,9 +10,10 @@ A bootable USB Flash drive using Ubuntu OS that will auto install VMware Worksta
 ##  View of the required two (2) post intallation files.  The first file "postinstall.sh" has minimal updates that will work correctly in a "chroot" environment.   The second file "postinstall2.sh" will be added to the context of the user account "ubuntu"  
 <img width="1289" height="613" alt="image" src="https://github.com/user-attachments/assets/76c4a5b3-cb4b-405f-9a69-271bdb941aee" />  
 
+## View of any required offline deb packages that will be installed immediately after the OS installation - does not require network connection.
 <img width="1157" height="617" alt="image" src="https://github.com/user-attachments/assets/b1b06fb8-7f89-48bd-8956-a66fc3a80ce7" />  
 
-View of a compressed (7z) MS Windows 10 image spilt into 4GB files to accomidate the FAT32 format requirement for the Ubuntu Bootable ISO  
+## View of a compressed (7z) MS Windows 10 image spilt into 4GB files to accomidate the FAT32 format requirement for the Ubuntu Bootable ISO  
 <img width="987" height="613" alt="image" src="https://github.com/user-attachments/assets/ba41cdb9-6461-4731-a24c-8c521e48bf11" />  
 
 
