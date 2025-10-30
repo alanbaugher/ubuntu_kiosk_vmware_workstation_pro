@@ -35,11 +35,20 @@ Duration:
 
 
 ## Follow up notes:
-Download the latest Linux VMware Workstation Pro binary for Linux from Broadcom Support Site.  
+Download the latest Linux VMware Workstation Pro binary for Linux from Broadcom Support Site under Free Software Downloads.  
+https://support.broadcom.com/group/ecx/productfiles?subFamily=VMware%20Workstation%20Pro&displayGroup=VMware%20Workstation%20Pro%2025H2%20for%20Linux&release=25H2&os=&servicePk=&language=EN&freeDownloads=true  
+
 <img width="913" height="250" alt="image" src="https://github.com/user-attachments/assets/931b0cea-90bf-4868-8246-8a87dcadc63e" />  
 <img width="1404" height="541" alt="image" src="https://github.com/user-attachments/assets/9a679d21-94d5-402a-aabc-fddb0b564c18" />  
 <img width="1075" height="921" alt="image" src="https://github.com/user-attachments/assets/38222e97-d3fc-4e99-b94d-4fd5a440ab14" />  
 <img width="2130" height="922" alt="image" src="https://github.com/user-attachments/assets/7e76a80b-9a50-48e6-ad25-04034f79d118" />  
+
+For editing the ISO, select an ISO editor tool such as UltraISO or WinISO or similar.
+To burn the ISO to USB Flash Driver, recommend using Rufus.  
+<img width="811" height="253" alt="image" src="https://github.com/user-attachments/assets/fa47a934-0ded-464b-a66d-566fcec6ed74" />  
+https://rufus.ie/en/   
+
+
 
 
 
