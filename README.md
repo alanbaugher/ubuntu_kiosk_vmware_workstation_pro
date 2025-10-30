@@ -36,7 +36,7 @@ Duration:
 <img width="987" height="613" alt="image" src="https://github.com/user-attachments/assets/ba41cdb9-6461-4731-a24c-8c521e48bf11" />  
 
 
-## Follow up notes:
+## ISO & Support Media notes:
 
 Ubuntu Desktop ISO:  
 <img width="257" height="195" alt="image" src="https://github.com/user-attachments/assets/4dd2271f-9f68-4f59-a74b-ca6302c66a99" />  
