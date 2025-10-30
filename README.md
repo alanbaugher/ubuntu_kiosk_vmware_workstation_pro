@@ -5,6 +5,7 @@ A bootable USB Flash drive using Ubuntu OS that will auto install VMware Worksta
 
 <img width="1979" height="972" alt="image" src="https://github.com/user-attachments/assets/1a5afc17-3481-4fe0-b761-0234ab66b7fb" />  
 
+<img width="1790" height="1046" alt="image" src="https://github.com/user-attachments/assets/71c7ff50-de1b-486b-b849-2758a55c458e" />  
 
 
 ## View of the two (2) bootable files of "meta-data" and "user-data" -  "user-data" must be defined in YAML, UTF, and Unix LF format.  
