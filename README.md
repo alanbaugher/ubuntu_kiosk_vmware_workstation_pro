@@ -1,7 +1,7 @@
 # ubuntu_kiosk_vmware_workstation_pro
 A bootable USB Flash drive using Ubuntu OS that will auto install VMware Workstation Pro
 
-
+View of the two (2) bootable files of "meta-data" and "user-data" -  "user-data" must be defined in YAML, UTF, and Unix LF format.  
 <img width="1046" height="621" alt="image" src="https://github.com/user-attachments/assets/c8d17196-bb85-4004-98ba-61a598740a25" />  
 
 
