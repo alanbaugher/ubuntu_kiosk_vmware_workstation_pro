@@ -1,0 +1,8 @@
+Example to create offline download files to use with Ubuntu Kiosk media folder of /media/debs
+Note:  Some offline deb may have dependencies that impact Ubuntu during installation.  
+Suggest removal of those and apply them later when online if needed.
+
+
+sudo apt-get -y --download-only install   jq yq yamllint curl wget vim git build-essential dkms linux-headers-generic 7zip
+cp /var/cache/apt/archives/*.deb .
+ls -lart
