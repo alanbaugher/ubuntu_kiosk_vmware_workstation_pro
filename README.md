@@ -6,6 +6,9 @@ Duration:
 10-30 min for 1st reboot into the user's desktop where the process will perform a VMware Workstation Pro installation, extract of VMware Image, and update of Gnome/Desktop Links with prompt for a final reboot.  
 2-5 min after 2nd reboot, the solution should auto-authenticate into the user's desktop and then auto-start any VMware image that was deployed.  
 
+  
+
+## View of the architecture model for building the custom ISO and utilization of the custom ISO.    
 <img width="1720" height="1019" alt="image" src="https://github.com/user-attachments/assets/ea7e49a1-275c-4dd4-894b-89393c02388c" />  
 
 <img width="1979" height="972" alt="image" src="https://github.com/user-attachments/assets/1a5afc17-3481-4fe0-b761-0234ab66b7fb" />  
