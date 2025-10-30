@@ -1,1 +1,7 @@
+Example/Reference file:
+
+Place your 4GB split winXX.7z images here.   
+
+During installation, the postinstall2.sh script will search this folder and extract the all the winXX.7z.001 - winXX.7z.0NN to /home/ubuntu/vms/win10   folder.
+
 
