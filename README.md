@@ -14,6 +14,7 @@ Duration:
 ## View of the processes used for building the custom ISO.    
 <img width="1979" height="972" alt="image" src="https://github.com/user-attachments/assets/1a5afc17-3481-4fe0-b761-0234ab66b7fb" />  
 
+## View of the custom bootable configuration files within the custom ISO and their integration with each other.    
 <img width="1790" height="1046" alt="image" src="https://github.com/user-attachments/assets/71c7ff50-de1b-486b-b849-2758a55c458e" />  
 
 
