@@ -1,5 +1,7 @@
 # ubuntu_kiosk_vmware_workstation_pro
 A bootable USB Flash drive using Ubuntu OS that will auto install VMware Workstation Pro 25H2 and extact a VMware Image.  
+Duraction:  10-15 min for OS installation on HDD/SDD of workstation with copy of all media files and installation of offline deb package files.  
+10-20 min for VMware Workstation Pro installation, extract of VMware Image, and update of Gnome/Desktop Links with prompt for a reboot.  
 
 <img width="1720" height="1019" alt="image" src="https://github.com/user-attachments/assets/ea7e49a1-275c-4dd4-894b-89393c02388c" />  
 
