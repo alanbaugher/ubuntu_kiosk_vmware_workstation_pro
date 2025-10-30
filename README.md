@@ -57,9 +57,9 @@ Note:  Site requires registration for login and to download files.   https://pro
 <img width="1960" height="655" alt="image" src="https://github.com/user-attachments/assets/4270460b-8a43-480d-9a8e-dc30857d02f3" />  
 After login, you will have a generic dashboard.  Select the upper left "hamburger" menu, then select "My Downloads" icon.  
 <img width="1976" height="659" alt="image" src="https://github.com/user-attachments/assets/43096e14-8779-429d-9859-8009ecc3c02e" />  
-
+Please select the "Free Software Downloads" section.  The in the search edit box, type "vmware workstation"  
 <img width="2000" height="523" alt="image" src="https://github.com/user-attachments/assets/c1eec34e-3cf4-4ed6-acff-cccd61465302" />  
-
+Select the version of VMware Workstation Prod.  We selected Linux.   Click the hyperlink/checkbox to access "Term & Conditions", then click the download icon.  
 <img width="1784" height="603" alt="image" src="https://github.com/user-attachments/assets/9e31c84e-8a36-4944-a9b5-463f864684c8" />  
 
 
