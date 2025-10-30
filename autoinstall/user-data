@@ -1,0 +1,49 @@
+#cloud-config
+autoinstall:
+  version: 1
+  identity:
+    hostname: ubuntu
+    username: ubuntu
+    # password: ubuntu (SHA-512 crypt)
+    # -------------------------------------------------------------------
+    # To generate a new SHA-512 password hash for this field:
+    #  1. Boot any Linux system (including Ubuntu Live USB) 
+    #  2. Run this command in a terminal:
+    #       mkpasswd -m sha-512
+    #     or, if 'mkpasswd' isn't installed:
+    #       python3 -c "import crypt; print(crypt.crypt(input('Password: '), crypt.mksalt(crypt.METHOD_SHA512)))"
+    #  3. Copy the resulting string (it starts with $6$...) into the 'password:' line below.
+    # -------------------------------------------------------------------
+    password: "$6$rounds=4096$ubuntu$U9PnjptXDOpah3aHRjwM6e6r1kdDPmsrQoDyETvmE9ztvjDtdVjNIEF5hSrGD4D2Jv0Z/JOFGbtOa2h4f4u4c1"
+
+  locale: en_US
+  timezone: America/Chicago
+  keyboard:
+    layout: us
+
+  ssh:
+    install-server: false
+
+  storage:
+    layout:
+      name: direct
+    swap:
+      size: 0         # prevent curtin swap bug; we create swap in postinstall
+    overwrite: true
+
+  packages: []        # offline: do not apt install anything during install
+  user-data:
+    disable_root: false
+  late-commands:
+    # 1) Copy + chmod inside the target (never fail curtin)
+    - curtin in-target --target=/target -- bash -c 'cp -f /cdrom/media/postinstall.sh /root/postinstall.sh && chmod +x /root/postinstall.sh || true'
+
+    # 2) Run Phase 1 work INSIDE target, but never fail curtin (log rc)
+    - curtin in-target --target=/target -- bash -c 'set +e; /root/postinstall.sh > /var/log/postinstall.log 2>&1; echo "[INFO] postinstall.sh (in-target) rc=$?" >> /var/log/postinstall.log; exit 0'
+
+    # 3) Schedule reboot from the LIVE environment (outside chroot)
+    #    Release /target so Subiquity can unmount cleanly; detach reboot.
+    - bash -c 'cd /; fuser -km /target || true; umount -R /target 2>/dev/null || umount -lR /target 2>/dev/null || true; (nohup /sbin/reboot -f >/dev/null 2>&1 <&- &) ; exit 0'
+
+    # 4) Failsafe: ensure GDM autologin even if postinstall.sh didn’t run
+    - curtin in-target --target=/target -- bash -c "mkdir -p /etc/gdm3 && printf '[daemon]\nAutomaticLoginEnable=true\nAutomaticLogin=ubuntu\n' > /etc/gdm3/custom.conf || true"
