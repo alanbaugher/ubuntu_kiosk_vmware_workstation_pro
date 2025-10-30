@@ -20,7 +20,7 @@ Duration:
 <img width="1790" height="1046" alt="image" src="https://github.com/user-attachments/assets/71c7ff50-de1b-486b-b849-2758a55c458e" />  
 
 
-## View of the two (2) bootable files of "meta-data" and "user-data" -  "user-data" must be defined in YAML, UTF8, and Unix LF format.  
+## View of the two (2) bootable files of "meta-data" and "user-data" -  "user-data" must be defined in YAML, UTF8, and Unix LF encoding/format.  
 <img width="1046" height="621" alt="image" src="https://github.com/user-attachments/assets/c8d17196-bb85-4004-98ba-61a598740a25" />  
 
 ## View of the two (2) bootable files of "grub.cfg" and "loopback.cfg"  -  These files reference the folder /autoinstaller, where "user-data" and "meta-data" resides.  
