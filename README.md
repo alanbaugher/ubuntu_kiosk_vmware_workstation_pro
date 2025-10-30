@@ -56,11 +56,7 @@ Note:  Site requires registration for login and to download files.   https://pro
 
 <img width="1960" height="655" alt="image" src="https://github.com/user-attachments/assets/4270460b-8a43-480d-9a8e-dc30857d02f3" />  
 
-<img width="1976" height="659" alt="image" src="https://github.com/user-attachments/assets/2feb504a-a442-4442-9b62-80d8f70bf44a" />  
-
-<img width="1946" height="1097" alt="image" src="https://github.com/user-attachments/assets/118b847e-26b4-46c6-8bf6-e118528e8650" />  
- 
-
+<img width="2000" height="523" alt="image" src="https://github.com/user-attachments/assets/c1eec34e-3cf4-4ed6-acff-cccd61465302" />  
 
 
 
