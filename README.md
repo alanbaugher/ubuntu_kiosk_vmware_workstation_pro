@@ -26,7 +26,7 @@ Duration:
 ## View of the two (2) bootable files of "grub.cfg" and "loopback.cfg"  -  These files reference the folder /autoinstaller, where "user-data" and "meta-data" resides.  
 <img width="1019" height="613" alt="image" src="https://github.com/user-attachments/assets/dfa6de6d-302b-4d3e-a96a-f2412fa459dd" />  
 
-## View of the required two (2) post intallation files.  The first file "postinstall.sh" has minimal updates that will work correctly in a "chroot" environment.   The second file "postinstall2.sh" will be added to the context of the user account "ubuntu"  
+## View of the required two (2) post installation files.  The first file "postinstall.sh" has minimal updates that will work correctly in a "chroot" environment.   The second file "postinstall2.sh" will be added run in the context of the user account "ubuntu"  
 <img width="1289" height="613" alt="image" src="https://github.com/user-attachments/assets/76c4a5b3-cb4b-405f-9a69-271bdb941aee" />  
 
 ## View of any required offline deb packages that will be installed immediately after the OS installation - does not require network connection.
