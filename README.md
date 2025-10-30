@@ -52,7 +52,7 @@ https://rufus.ie/en/
 
 ## Broadcom Registration / VMware Workstation Pro Download Process.
 Download the latest Linux VMware Workstation Pro binary for Linux from Broadcom Support Site under Free Software Downloads.  
-Note:  Site requires registration for login and to download files.   https://profile.broadcom.com/web/registration  
+Note:  Site requires registration for login and to download files. [as of 11/25]  https://profile.broadcom.com/web/registration  
 
 <img width="1960" height="655" alt="image" src="https://github.com/user-attachments/assets/4270460b-8a43-480d-9a8e-dc30857d02f3" />  
 After login, you will have a generic dashboard.  Select the upper left "hamburger" menu, then select "My Downloads" icon.  
