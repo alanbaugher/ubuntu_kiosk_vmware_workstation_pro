@@ -48,7 +48,8 @@ Ubuntu Desktop ISO:
 <img width="257" height="195" alt="image" src="https://github.com/user-attachments/assets/4dd2271f-9f68-4f59-a74b-ca6302c66a99" />  
 https://ubuntu.com/download/desktop  
 
-For editing the standard Ubuntu ISO, select an ISO editor tool such as UltraISO or WinISO or similar. 
+For editing the standard Ubuntu ISO, select an ISO editor tool such as UltraISO or WinISO or similar.   
+Note:  The size of the ISO will required the paid versions of these editor tools.  
 https://www.ultraiso.com/  
   
 To burn the ISO to USB Flash Driver, recommend using Rufus.  
