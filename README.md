@@ -13,30 +13,30 @@ Duration:
 ### View of the architecture model for building and utilization of the custom ISO.    
 <img width="1720" height="1019" alt="image" src="https://github.com/user-attachments/assets/ea7e49a1-275c-4dd4-894b-89393c02388c" />  
   
-## View of the processes used for building the custom ISO.    
+### View of the processes used for building the custom ISO.    
 <img width="1979" height="972" alt="image" src="https://github.com/user-attachments/assets/1a5afc17-3481-4fe0-b761-0234ab66b7fb" />  
 
-## View of the custom bootable configuration files within the custom ISO and their relationship with each other.    
+### View of the custom bootable configuration files within the custom ISO and their relationship with each other.    
 <img width="1790" height="1046" alt="image" src="https://github.com/user-attachments/assets/71c7ff50-de1b-486b-b849-2758a55c458e" />  
 
 
-## View of the two (2) bootable files of "meta-data" and "user-data" -  "user-data" must be defined in YAML, UTF8, and Unix LF encoding/format.  
+### View of the two (2) bootable files of "meta-data" and "user-data" -  "user-data" must be defined in YAML, UTF8, and Unix LF encoding/format.  
 <img width="1046" height="621" alt="image" src="https://github.com/user-attachments/assets/c8d17196-bb85-4004-98ba-61a598740a25" />  
 
-## View of the two (2) bootable files of "grub.cfg" and "loopback.cfg"  -  These files reference the folder /autoinstaller, where "user-data" and "meta-data" resides.  
+### View of the two (2) bootable files of "grub.cfg" and "loopback.cfg"  -  These files reference the folder /autoinstaller, where "user-data" and "meta-data" resides.  
 <img width="1019" height="613" alt="image" src="https://github.com/user-attachments/assets/dfa6de6d-302b-4d3e-a96a-f2412fa459dd" />  
 
-## View of the required two (2) post installation files.  The first file "postinstall.sh" has minimal updates that will work correctly in a "chroot" environment.   The second file "postinstall2.sh" will be added run in the context of the user account "ubuntu"  
+### View of the required two (2) post installation files.  The first file "postinstall.sh" has minimal updates that will work correctly in a "chroot" environment.   The second file "postinstall2.sh" will be added run in the context of the user account "ubuntu"  
 <img width="1289" height="613" alt="image" src="https://github.com/user-attachments/assets/76c4a5b3-cb4b-405f-9a69-271bdb941aee" />  
 
-## View of any required offline debian (deb) packages that will be installed immediately after the OS installation - does not require network connection.
+### View of any required offline debian (deb) packages that will be installed immediately after the OS installation - does not require network connection.
 <img width="1157" height="617" alt="image" src="https://github.com/user-attachments/assets/b1b06fb8-7f89-48bd-8956-a66fc3a80ce7" />  
 
-## View of a compressed (7z) MS Windows 10 image spilt into 4GB files to accomidate the FAT32 format requirement for the Ubuntu Bootable ISO  
+### View of a compressed (7z) MS Windows 10 image spilt into 4GB files to accomidate the FAT32 format requirement for the Ubuntu Bootable ISO  
 <img width="987" height="613" alt="image" src="https://github.com/user-attachments/assets/ba41cdb9-6461-4731-a24c-8c521e48bf11" />  
 
 
-## ISO & Support Media notes:
+### ISO & Support Media notes:
 
 Ubuntu Desktop ISO:  
 <img width="257" height="195" alt="image" src="https://github.com/user-attachments/assets/4dd2271f-9f68-4f59-a74b-ca6302c66a99" />  
@@ -50,7 +50,7 @@ To burn the ISO to USB Flash Driver, recommend using Rufus.
 <img width="811" height="253" alt="image" src="https://github.com/user-attachments/assets/fa47a934-0ded-464b-a66d-566fcec6ed74" />  
 https://rufus.ie/en/   
 
-## Broadcom Registration / VMware Workstation Pro Download Process.
+### Broadcom Registration / VMware Workstation Pro Download Process.
 Download the latest Linux VMware Workstation Pro binary for Linux from Broadcom Support Site under Free Software Downloads.  
 Note:  Site requires registration for login and to download files. [as of 11/25]  https://profile.broadcom.com/web/registration  
 
