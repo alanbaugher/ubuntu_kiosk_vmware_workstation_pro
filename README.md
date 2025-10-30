@@ -4,7 +4,7 @@ A bootable USB Flash drive using Ubuntu OS that will auto install VMware Worksta
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3d518f3d-eb77-40a2-b70f-200b2eef48a3" />  
 
 Duration:  
-10-15 min for OS installation on HDD/SDD of workstation with copy of all media files and installation of offline deb package files.  
+10-15 min for OS installation on HDD/SDD of workstation with copy of all media files and installation of offline debian package files.  
 10-30 min for 1st reboot into the user's desktop where the process will perform a VMware Workstation Pro installation, extract of VMware Image, and update of Gnome/Desktop Links with prompt for a final reboot.  
 2-5 min after 2nd reboot, the solution should auto-authenticate into the user's desktop and then auto-start any VMware image that was deployed.  
 
